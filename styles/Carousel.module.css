@@ -1,0 +1,46 @@
+.carouselcontainer {
+  width: 80%;
+  position: relative; /* padding-left: 2rem;
+  padding-right: 2rem; */
+}
+
+.carouselcontent {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.carouselitem {
+  height: 20rem;
+  width: 33.3%;
+  background-color: cadetblue;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  flex: none;
+}
+
+.leftbutton {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  opacity: 20%;
+  z-index: 10;
+}
+
+.leftbutton:hover {
+  opacity: 100%;
+}
+
+.rightbutton {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  opacity: 20%;
+  z-index: 10;
+}
+
+.rightbutton:hover {
+  opacity: 100%;
+}
